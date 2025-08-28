@@ -1,6 +1,6 @@
 # Projeto: Transfer Learning em Python (Colab)
 
-## 🎯 Objetivo
+## Objetivo
 O objetivo deste projeto é aplicar a técnica de **Transfer Learning** utilizando **redes neurais profundas** com o framework **TensorFlow/Keras**.  
 O modelo base utilizado foi o **MobileNetV2**, pré-treinado no dataset **ImageNet**, e adaptado para classificar imagens em **duas classes**.  
 
@@ -8,7 +8,7 @@ O exemplo implementado utiliza o dataset **Cats vs Dogs** do TensorFlow Datasets
 
 ---
 
-## 🧩 Metodologia
+## Metodologia
 1. **Aquisição de dados**  
    - Opção A: uso do dataset público **Cats vs Dogs** (TFDS).  
    - Opção B: dataset customizado, organizado em duas pastas (uma por classe).  
@@ -40,7 +40,7 @@ O exemplo implementado utiliza o dataset **Cats vs Dogs** do TensorFlow Datasets
 
 ---
 
-## 📊 Resultados
+## Resultados
 - O modelo apresentou **alta acurácia** no dataset de validação e teste.  
 - Data augmentation e fine-tuning contribuíram para reduzir overfitting e melhorar a capacidade de generalização.  
 - A matriz de confusão mostrou boa distinção entre as classes (gatos vs cães).  
@@ -49,7 +49,7 @@ O exemplo implementado utiliza o dataset **Cats vs Dogs** do TensorFlow Datasets
 
 ---
 
-## 📝 Conclusão
+## Conclusão
 O uso de **Transfer Learning** se mostrou eficiente para resolver um problema de classificação binária de imagens, mesmo com um número limitado de dados.  
 A abordagem permite **reaproveitar conhecimento de redes pré-treinadas**, reduzindo o tempo de treinamento e a necessidade de hardware muito potente.  
 
@@ -57,7 +57,7 @@ Este projeto pode ser adaptado facilmente para outros domínios (como classifica
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 ```
 transfer-learning-project/
 ├── Transfer_Learning_Cats_vs_Dogs.ipynb   # Notebook Colab
@@ -67,7 +67,7 @@ transfer-learning-project/
 
 ---
 
-## 🚀 Como executar no Colab
+## Como executar no Colab
 1. Faça upload do notebook `Transfer_Learning_Cats_vs_Dogs.ipynb` no Google Colab.  
 2. Rode as células em ordem.  
 3. Escolha na seção **1A (TFDS)** ou **1B (Drive)** a origem dos dados.  
@@ -75,7 +75,7 @@ transfer-learning-project/
 
 ---
 
-## 🔗 Referências
+## Referências
 - [Cats vs Dogs (TFDS)](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)  
 - [Dataset Microsoft Research](https://www.microsoft.com/en-us/download/details.aspx?id=54765)  
 - [Exemplo Transfer Learning (ml4a)](https://colab.research.google.com/github/kylemath/ml4a-guides/blob/master/notebooks/transfer-learning.ipynb)  
